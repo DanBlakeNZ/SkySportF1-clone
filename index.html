@@ -1,0 +1,1326 @@
+    <html>
+
+<head>
+    
+ <meta charset="utf-8"> 
+    
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet' type='text/css'>
+    
+    <title>F1 News, Drivers, Results - Formula 1 Live Online | Sky Sports</title>
+    
+    <style type="text/css">
+        
+        a:link{
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color: inherit;
+        }
+        
+        a:hover{
+             color: inherit;   
+        }
+        
+    
+        body{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Assistant', sans-serif;
+        }
+        
+        h1{
+            font-size: 36px;
+            font-weight: normal;
+            
+        }
+        
+        h2{
+            font-size: 32px;
+            padding: 0px;
+            margin: 0px;           
+        }
+        
+        h3{
+            font-size: 22px;
+            padding: 0px;
+            margin: 0px;       
+        }
+        
+        h4{
+            color: #214cb8;
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0px;  
+        }
+        
+        h5{
+            float: left;
+            font-size: 18px;
+            padding-top: 13px;
+            margin: 0px;
+        }
+     
+        
+        
+        
+    
+        #header-image{
+            border: 1px black solid;
+            background-image: url(Images/Header_image.jpg);
+            width: 1901 px;
+            height: 146px;
+        }
+        
+        #header-container{
+          
+            margin: 0 auto;
+            width: 1000px;
+            height: 146px;
+        }
+        
+        #skysports-logo{
+            float: left;
+            margin: 34px 0px 0px 0px;
+        }
+        
+        #signin-search{
+            float: right;
+            width: 453px;
+            height: 46px;
+            margin-top: 34px;
+            line-height: 46px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        #signin-search img{
+            padding-left: 25px;
+        }
+        
+        #signin-search input{
+            margin-left: 25px;
+            height: 34px;
+            width: 200px;
+            outline: none;
+            font-size: 16px;
+            padding-left: 10px;
+        }
+        
+        #magnifying-glass{
+            float: right;
+            padding: 0px !important;
+            position: relative;
+            top: 6px;
+            left:-5px;
+        }
+        
+        #menu-container{
+            position: relative;
+            left: -14px;
+            height: 40px;
+            width: 680px;
+            float: left;
+            margin-top: 21px;
+          
+        }
+        
+        .menu-text-container{
+            float: left;
+            padding: 11px 14px 12px 14px;
+            color: white;
+            font-size: 18px;    
+        }
+                
+        .menu-text-container img{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .menu-text-container:hover{
+            background-color: #132C6C;
+        }
+        
+        #watch-skysports{
+            float: right;
+            width: 145px;
+            height: 31px;
+            margin: 20px 11px 0px 0px;
+            background-image: url(Images/watch_skysports.png)
+        }
+        
+        #watch-skysports:hover{
+            background-image: url(Images/watch_skysports_hover.png)
+        }
+        
+        #page-content-container{
+            width: 1000px;
+            height: 3450px;
+            margin: 0px auto;
+        }
+        
+        #f1-menu-container{
+            border-top: 1px #DCDCDC solid;
+            border-bottom: 1px #DCDCDC solid; 
+            margin-bottom: 25px;
+            height: 47px;   
+            
+        }
+        
+        .f1-menu-text-container{
+            float: left;
+            padding: 0px 11px;
+            height: 47px;
+            line-height: 47px;
+            font-size: 16px;
+            
+        }
+        
+        #articles-container{
+            float: left;
+            width: 643px;
+            height: 2165px;
+            margin-right: 20px;            
+        }
+        
+        #side-menu-container{
+            float:left;
+            width: 335px;
+            height: 2165px;
+            background-color: #EAEAEA;
+            
+        }
+        
+        #main-article-container{
+            width: 643px;
+            height: 560px;
+            background-color: #EAEAEA;
+        }
+        
+        #main-article-text{
+            padding-left: 20px;
+        }
+        
+        #main-article-secoundry-headline1{
+            float: left;
+            width: 290px;
+        }
+        
+        #main-article-secoundry-headline2{
+            float: left; 
+        }
+        
+        #secoundry-articles-container{
+            height: 390px;
+            width: 645px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        
+        #secoundry-article-1{
+            float: left;
+            width: 315px;
+            height: 390px;
+            margin-right: 15px;
+            margin-bottom: 0px;     
+        }
+        
+        #secoundry-article-2{
+            float: left;
+            width: 315px;
+            height: 390px;
+            margin: 0px;    
+        }
+        
+        .article-list-container{
+            height: 100px;
+            width: 645px;
+            margin-bottom: 20px;
+        }
+        
+        .article-list-container img{
+            float: left;
+            width: 176px;
+            height: 99px;
+            margin-right: 20px;
+        }
+        
+        .article-list-container p{
+            
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #more-articles{
+            float: left;
+            font-weight: bold;
+            padding-top: 20px;
+            padding-right: 90px;
+            padding-bottom: 20px;
+        }
+        
+        #skybet-logo{
+            line-height: 38px;
+            float: left;
+            padding-top: 12px;
+            width: 555px; 
+        }
+        
+        #skybet-container{
+            float: left;
+            height: 212px;
+            width: 645;
+            border-top: 1px #EAEAEA solid;
+            padding-top: 25px;
+        }
+        #skybet-container p{
+            font-weight: bold;
+            text-indent: 25px;
+        }
+        
+        
+        .skybet-images{
+            float: left;
+            width: 215px;
+            height: 155px;
+        }
+        
+
+        .side-menu-heading {
+            width: 290px;
+            height: 43px;   
+            margin: 25px auto 0px auto;
+            color: white;
+            background-color: black;
+            font-size: 22px;
+            line-height: 43px;
+            padding-left: 10px;   
+        }
+        
+        .side-menu-heading img{
+            float: right;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        
+        #GP-details{
+            background-color: white;
+            width: 300px;
+            height: 195px;
+            margin: 0px auto;
+        }
+        
+        #GP-details h3{
+            padding: 10px 15px;        
+        }
+        
+        #GP-details p{
+            margin: 15px 0px;
+            padding-left: 15px;
+            font-size: 16px;
+            line-height: 13px;   
+        }
+        
+        #GP-details img{
+            margin: 0px;
+            padding-right: 5px;
+        }
+        
+        .standings{
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            margin: 0px auto;
+        }
+        
+        .standings img{
+            margin-left: 25px;
+            padding-right: 5px;
+        }
+        
+        .standings table{
+            margin: 0px auto;
+            padding-top: 20px;
+            text-align: left;
+            width: 265px;
+            font-weight: bold;
+            font-size: 14px;
+            border-spacing: 0;    
+        }
+        
+        .standings thead{
+            background-color: #CF0711;
+            color: white;           
+        }
+        
+         .standings tr{
+             height: 37px;
+        }
+        
+        .standings th{
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+        
+        .standings th:last-child{
+            text-align:right;
+            padding-right: 10px;
+        }
+        
+        .standings td{
+            padding-top: 0px;
+            padding-left: 10px;
+            border-bottom: 1px #EAEAEA solid;
+        }
+        
+        .standings td:last-child{
+            text-align:right;
+            padding-right: 10px;
+        }
+        
+    
+        .around-skysports-container{
+            background-color: white;
+            color: black;
+            height: 99px;
+            width: 300px;
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+        
+        .around-skysports-container img{
+            float: left;
+            height: 99px;
+            width: 99px;
+            padding-right: 20px;
+        }
+        
+        #features-video-opinion-container{
+            padding-top: 50px;
+            float: left;
+            width: 1000px;
+            height: 996px;
+            margin: 0px auto;
+            
+       
+        }
+        
+        
+        .section-title{
+            float: left;
+            font-size: 26px;
+            font-weight: normal;
+            margin: 0px;
+            padding: 0px;  
+        }
+        
+        .more{
+            font-size: 16px;
+            margin: 0px;
+            padding-top: 10px;
+            float:right;
+            height: 30px;  
+        }
+        
+        .four-article-container{
+            float: left;
+            width: 1000px;
+            height: 290px; 
+            border-top: 1px #EAEAEA solid;
+        
+        }
+        .single-article-container{
+            float: left;
+            width: 230px;
+            margin: 15px 26px 0px 0px;
+        }
+        
+        .single-article-container p{
+            margin-top: 8px;
+        }
+        
+        .opinion-container{
+            float: left;
+            width: 462px;
+            height: 129px;
+            padding: 10px;
+            margin-right: 18px;
+            margin-bottom: 20px;
+            font-size: 17px;    
+            
+        }
+        
+        .opinion-container img{
+            float: left;
+            height: 90px;
+            width: 90px;
+            margin: 15px 10px 15px 5px;
+        }
+        .opinion-container p{
+            margin-top: 5px;    
+        }
+        
+        #footer{
+            width: auto;
+            height: 620px;
+            margin: 0px auto;
+            background-color: #F4F4F4;
+ 
+        }
+        
+        #footer-container{
+            width: 1000px;
+            height: 590px;
+            margin: 0px auto;
+        }
+        
+        
+        #social-container{
+            width: 1000px;
+            height: 70px;
+            border-bottom: 1px #DCDCDC solid; 
+                
+        }
+        
+        .social-platform-container{ 
+            float: left;
+            height: 70px;
+            width: 100px;
+            margin-right: 10px;
+            line-height: 70px;
+        }       
+        
+        #twitter-image-container{
+            float: left;
+            margin:20px 10px 0px 0px;
+            height: 25px;
+            width: 25px;
+            background-image: url(Images/Twitter_bird_grey.png);
+        }
+  
+        #twitter-image-container:hover{
+            background-image: url(Images/Twitter_bird_blue.png);
+        }
+        
+        #facebook-image-container{
+            float: left;
+            margin:20px 10px 0px 0px;
+            height: 25px;
+            width: 25px;
+            background-image: url(Images/facebook_grey.png);
+        }
+  
+        #facebook-image-container:hover{
+            background-image: url(Images/facebook_blue.png);
+        }
+        
+        #google-image-container{
+            float: left;
+            margin:20px 10px 0px 0px;
+            height: 25px;
+            width: 25px;
+            background-image: url(Images/google_plus_grey.png);
+        }
+  
+        #google-image-container:hover{
+            background-image: url(Images/google_plus_red.png);
+        }
+        
+        #other-sites-container{
+            width: 1000px;
+            height: 415px;
+            padding-top: 25px;
+            border-bottom: 1px #DCDCDC solid; 
+        }
+        
+        .links-container{
+            float: left;
+            width: 220px;
+            height: 370px;
+            line-height: 12px;
+            margin-right: 20px;
+            
+        }
+        
+        .links-container h3{
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        
+        #legal-container{
+            float: left;
+            width: 1000px;
+            margin-bottom: 20px;
+            
+        }
+        .Terms{
+            float: left;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-right: 30px;
+        }
+        
+        #small-skysport-logo{
+            font-size: 14px;
+        }
+        
+        #small-skysport-logo img{
+            font-size: 14px;
+            width: 112px;
+            height: 19px;
+            margin-right: 15px;
+        }
+       
+    
+        
+        
+    </style>
+    
+</head>
+        
+        
+        
+        
+        
+        
+        
+        
+        <body>
+
+        <div id="header-image">
+            
+            <div id="header-container">
+            
+                <div id="skysports-logo">
+                    <a href="http://www.skysports.com/"><img src="Images/Sky-Sports-Logo.png"></a>
+                </div>
+                
+                <div id="signin-search">
+                    
+                    <a href="http://www.skysports.com/watch/get-sky">Get Sky Sports</a> 
+                    <a href="https://skyid.sky.com/signin/sports?successUrl=http%3A%2F%2Fwww.skysports.com%2Ff1"><img src="Images/sign_in_head.png"> Sign In</a>
+                    <input type="text" placeholder="Search Sky Sports"> 
+                    <img id="magnifying-glass" src="Images/magnifying_glass.png" >
+                
+                </div>
+            
+                <div id="menu-container">
+                    
+                    <a href="http://www.skysports.com/"><div class="menu-text-container">Home</div></a>
+                    <a href=""><div class="menu-text-container">Sports <img src="Images/down_arrow.png"></div></a>
+                    <a href="http://www.skysports.com/live-scores"><div class="menu-text-container">Score Centre</div></a>
+                    <a href="http://www.skysports.com/watch/video"><div class="menu-text-container">Video</div></a>
+                    <a href="https://www.skybet.com"><div class="menu-text-container">Sky Bet</div></a>
+                    <a href="http://www.skysports.com/games"><div class="menu-text-container">Games</div></a>
+                    <a href=""><div class="menu-text-container">More <img src="Images/down_arrow.png"></div></a>  
+                    
+                </div>
+                
+                <a href="http://www.skysports.com/watch"><div id="watch-skysports"></div></a>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        <div id=page-content-container>
+    
+        
+        <h1>F1</h1>
+            
+            <div id="f1-menu-container">
+                
+                <a href="http://www.skysports.com/f1/news"><div class="f1-menu-text-container">News</div></a>
+                <a href="http://www.skysports.com/watch/video/sports/f1"><div class="f1-menu-text-container">Video</div></a> 
+                <a href="http://www.skysports.com/f1/opinion"><div class="f1-menu-text-container">Opinion</div></a> 
+                <a href="http://www.skysports.com/f1/drivers-teams"><div class="f1-menu-text-container">Drivers &amp; Teams</div></a> 
+                <a href="http://www.skysports.com/f1/schedule-results"><div class="f1-menu-text-container">Schedule &amp; Results</div></a> 
+                <a href="http://www.skysports.com/f1/standings"><div class="f1-menu-text-container">Standings</div></a> 
+                <a href="http://www.skysports.com/f1/stats"><div class="f1-menu-text-container">Stats Zone</div></a> 
+                <a href="https://buy.sky.com/sports-upgrades"><div class="f1-menu-text-container">Get Sky F1</div></a> 
+            
+            </div>
+            
+            
+            <div id="articles-container">
+                
+                <div id="main-article-container">
+                
+                    <a href="http://www.skysports.com/f1/news/12433/10326344/brawn-gp-back-in-action-with-martin-brundle-at-the-wheel"><img id="main-article-image" src="Images/Brawn.PNG"></a>
+                        
+                        <div id="main-article-text">
+                    
+                            <a href="http://www.skysports.com/f1/news/12433/10326344/brawn-gp-back-in-action-with-martin-brundle-at-the-wheel"><h2>WATCH: Brawn GP returns!</h2></a>
+                            
+                            <p>Martin Brundle drives the iconic 2009 title-winning Brawn GP car up the Goodwood hill and speaks to the legendary Ross Brawn.</p>
+                            
+                            <div id="main-article-secoundry-headline1">
+                                <p><a href="http://www.skysports.com/watch/video/sports/f1/10326313/mind-your-toes"><img src="Images/right_arrow_gray.png"> WATCH: Mind your toes!</a></p>
+                            </div>
+                    
+                            <div id="main-article-secoundry-headline2">
+                                 <p><a href="http://www.skysports.com/f1/news/12479/10323815/mclaren-may-extend-2017-driver-line-up-delay-says-ron-dennis"><img src="Images/right_arrow_gray.png"> McLaren may delay 2017 driver call</a></p>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                    
+                
+                    <div id=secoundry-articles-container>
+                        
+                        <div id="secoundry-article-1">
+                            
+                            <a href="http://www.skysports.com/f1/news/24181/10325334/lewis-hamilton-say-his-relationship-with-nico-rosberg-is-now-better-than-ever"><img src="Images/Lewis_and_Nico.PNG"></a>
+                            
+                            <a href="http://www.skysports.com/f1/news/topic/1221/f1-transfer-gossip"><h4>F1 Transfer Gossip</h4></a>
+                            
+                            <a href="http://www.skysports.com/f1/news/24181/10325334/lewis-hamilton-say-his-relationship-with-nico-rosberg-is-now-better-than-ever"><h3>Lewis-Nico going swimmingly</h3></a>
+                            
+                            <p>Lewis Hamilton says his relationship with Nico Rosberg is better than ever - and they bonded at the swimming pool they share in Monaco.</p>
+                            
+                            <p><a href="http://www.skysports.com/f1/news/12433/10322432/f1-news-jenson-button-targets-enjoyable-challenge-for-2017"> <img src="Images/right_arrow_gray.png"> Button just wants to enjoy F1</a></p>
+                            
+                            <p><a href="http://www.skysports.com/f1/news/12433/10320838/sergio-perez-recalls-mclaren-woe-but-ready-for-top-tier-return"><img src="Images/right_arrow_gray.png"> Perez recalls lost McLaren year</a></p>
+
+                        </div>
+                        
+                        <div id="secoundry-article-2">
+                            
+                            
+                            <a href="http://www.skysports.com/f1/news/12433/10326382/ross-brawn-wont-shut-door-on-f1-but-says-return-unlikely"><img src="Images/Brawn2.PNG"></a>
+                            
+                            <a href="http://www.skysports.com/f1/news/topic/1221/f1-transfer-gossip"><h4>F1 Transfer Gossip</h4></a>
+
+                            
+                            <a href="http://www.skysports.com/f1/news/12433/10326382/ross-brawn-wont-shut-door-on-f1-but-says-return-unlikely"><h3>Brawn: Never say never on F1</h3></a>
+                            
+                            <p>Ross Brawn says he would never totally shut the door on a return to F1 in some capacity, but admits a return is unlikely.</p>
+                            
+                            <p><a href="http://www.skysports.com/f1/news/12433/10322592/the-f1-report-european-gp-review"><img src="Images/right_arrow_gray.png"> WATCH: The F1 Report</a></p>
+                            
+                            <p><a href="http://www.skysports.com/f1/schedule-results"><img src="Images/right_arrow_gray.png"> The 2016 F1 schedule</a></p>
+
+                        </div>
+                    
+                    </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/news/topic/5613/austrian-gp-2016">
+                    <img src="Images/brundle_lewis.jpg">
+                    <h4>Austrian GP 2016</h4>
+                    <h3>Brundle back for Austrian GP</h3>
+                    <p>After two races away, Martin Brundle returns to his familiar place in the Sky F1 line-up for this weekend's Austrian GP.</p></a>
+                </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/news/12471/10326548/pierre-gasly-says-only-gp2-title-will-do-for-shot-at-2017-toro-rosso-seat">
+                    <img src="Images/Gasly.jpg">
+                    <h4>F1 in 2017</h4>
+                    <h3>Gasly: Title a must for F1 shot</h3>
+                    <p>Red Bull junior Pierre Gasly admits this year's GP2 title is a pre-requisite if he is to have a chance of a 2017 Toro Rosso seat.</p></a>
+                </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/live-blog/12433/10034948/f1-gossip-column">
+                    <img src="Images/nico-keanue.png">
+                    <h4>Formula 1</h4>
+                    <h3>The F1 gossip column</h3>
+                    <p>Birthday boy Rosberg meets movie star; How many races for 2017? And Whitmarsh breaks his silence on F1...</p></a>
+                </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/news/12479/10323815/mclaren-may-extend-2017-driver-line-up-delay-says-ron-dennis">
+                    <img src="Images/ron_fernando.jpg">
+                    <h4>F1 in 2017</h4>
+                    <h3>McLaren may delay 2017 decision</h3>
+                    <p>McLaren won't necessarily make a decision on their 2017 driver line-up by September, according to team boss Ron Dennis.</p></a>
+                </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/news/32420/10321396/whats-wrong-at-ferrari">
+                    <img src="Images/ferrari.jpg">
+                    <h4>What's wrong at Ferrari?</h4>
+                    <h3>Brundle back for Austrian GP</h3>
+                    <p>Sky F1's Mark Hughes analyses Ferrari in 2016 and the core issues it needs to tackle in order to launch a title challenge.</p></a>
+                </div>
+                
+                <div class="article-list-container">
+                    <a href="http://www.skysports.com/f1/news/12433/10320838/sergio-perez-recalls-mclaren-woe-but-ready-for-top-tier-return">
+                    <img src="Images/perez.jpg">
+                    <h4>Formula 1</h4>
+                    <h3>Perez recalls lost McLaren year</h3>
+                    <p>Sergio Perez has opened up on his season at McLaren, a year which ended in the Mexican being ruthlessly dropped by the team.</p></a>
+                </div>
+                
+                
+                <div id="more-articles">
+                    <p><a href="http://www.skysports.com/f1/news/24182/10321914/sebastian-vettel-thinks-ferrari-can-still-win-title-despite-rough-start">Vettel: Title still possible</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12433/10322592/the-f1-report-european-gp-review"> WATCH: F1 Report Europe</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12476/10321599/claire-williams-unhappy-with-fourth-in-f1-constructors-championship">Williams: Fourth not good enough</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12433/10320943/bernie-ecclestone-wants-other-grands-prix-to-learn-from-baku">Ecclestone: Learn from Baku</a></p>
+                </div>
+                
+                <div id="more-articles">
+                    <p><a href="http://www.skysports.com/f1/news/12433/10322432/f1-news-jenson-button-targets-enjoyable-challenge-for-2017">Button just wants to enjoy F1</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12433/10320764/f1s-radio-ban-is-the-sport-on-the-wrong-wavelength">F1 on wrong wavelength?</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12433/10320689/f1-report-is-it-lewis-hamiltons-title-to-lose">Is it Hamilton's title to lose?</a></p>
+                    <p><a href="http://www.skysports.com/f1/news/12474/10320603/ferrari-stress-kimi-raikkonens-results-will-decide-his-2017-future">Ferrari: Kimi future down to Kimi</a></p>
+                </div>
+                
+                 <div id="skybet-logo">   
+                
+                    <img src="Images/skybet.png"> 
+                
+                </div>
+                
+                <p style="float:right"><img src="Images/right_arrow_gray.png"> More</p>
+                
+                <div id="skybet-container">
+                    
+                    <div class=skybet-images>
+                        <img src="Images/skybet_tracker.PNG">
+                        <p>Sky Bet Tracker</p>
+                    </div>
+                    
+                    <div class=skybet-images>
+                        <img src="Images/skybet_app.png">
+                        <p>Sky Bet Mobile App</p>
+                    </div>
+                    
+                    <div class=skybet-images>
+                        <img src="Images/skybet_club.PNG">
+                        <p>Join Sky Bet Club</p>
+                    </div>
+
+                       
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div id="side-menu-container">
+                
+                <div class="side-menu-heading">
+                    F1 Live on Sky <img src="Images/black_arrow.PNG">
+                </div>
+                
+                <div id="GP-details">
+                    <h3>Austrian Grand Prix</h3>
+                    <p>01st Jul - 03rd Jul</p>
+                    <p><img src="Images/SkySportsF1-logo.PNG"></p>
+                    
+                    <hr style color="#EAEAEA">
+                    <p><img src="Images/right_arrow_gray.png"> Get Sky F1<p>
+                    <p><img src="Images/right_arrow_gray.png"> Get a Sky Sport Pass</p>
+                
+                </div>
+                
+                <div class="side-menu-heading">
+                    Driver Standings
+                </div>
+                
+                <div class="standings">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Driver</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Nico Rosberg</td>
+                                <td>141</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>2</td>
+                                <td>Lewis Hamilton</td>
+                                <td>117</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td>Sebastian Vettel</td>
+                                <td>141</td>
+                            </tr>
+                        </tbody>
+                        
+                        
+                        
+                        <tbody>
+                            <tr>
+                                <td>4</td>
+                                <td>Kimi Raikkonen</td>
+                                <td>141</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td>Daniel Ricciardo</td>
+                                <td>141</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                
+                <p><img src="Images/right_arrow_gray.png"> All Standings<p>
+                
+                </div>
+                
+                
+                
+                <div class="side-menu-heading">
+                    Team Standings
+                </div>
+                
+                <div class="standings">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Team</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Mercedes</td>
+                                <td>258</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>2</td>
+                                <td>Ferrari</td>
+                                <td>177</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td>Red Bull</td>
+                                <td>140</td>
+                            </tr>
+                        </tbody>
+                        
+                        
+                        
+                        <tbody>
+                            <tr>
+                                <td>4</td>
+                                <td>Williams</td>
+                                <td>90</td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>5</td>
+                                <td>Force India</td>
+                                <td>59</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                
+                <p><img src="Images/right_arrow_gray.png"> All Standings<p>
+                
+                </div>
+                
+                
+                
+                <div class="side-menu-heading">
+                    <img style="float:left" src="Images/DHL.PNG">Fastest Pit Stop
+                </div>
+                
+                <div class="standings" style="height:150px">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Race</th>
+                                <th>Team</th>
+                                <th>Sec</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Europe</td>
+                                <td>Williams</td>
+                                <td>1.92s</td>
+                            </tr>
+                        </tbody>
+                
+                    </table>
+                    
+                    <p><img src="Images/right_arrow_gray.png"> All Races<p>
+
+                </div>
+
+                <div class="side-menu-heading">
+                        <img style="float:left" src="Images/DHL.PNG">Fastest Lap
+                </div>
+
+                <div class="standings" style="height:150px">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Race</th>
+                                <th>Driver</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Europe</td>
+                                <td>Nico Rosberg</td>
+                                <td>1:46.485</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                    <p><img src="Images/right_arrow_gray.png"> All Races<p>
+
+                </div>
+                
+                <div class="side-menu-heading">
+                    Around Sky Sports
+                </div>
+                
+                <div class="around-skysports-container">
+                    
+                    <img src="Images/video_features.jpg">
+                    <h5>Video Features</h5>
+                    <br>
+                    <p>Watch some our favourite 2016 features</p>            
+                </div>
+                
+                <div class="around-skysports-container">
+                    
+                    <img src="Images/F1_news_app.jpg">
+                    <h5>F1 news on the app!</h5>
+                    <br>
+                    <p>Download the Sky Sports mobile app</p>            
+                </div>
+                
+                <div class="around-skysports-container">
+                    
+                    <img src="Images/F1_2016.jpg">
+                    <h5>F1 in 2016</h5>
+                    <br>
+                    <p>The full schedule for the 2016 campaign</p>            
+                </div>
+                
+                <div class="around-skysports-container">
+                    
+                    <img src="Images/Now_TV.jpg">
+                    <h5>Watch on NOW TV</h5>
+                    <br>
+                    <p>A Day Pass for only £6.99. No contract</p>            
+                </div>
+
+            </div>
+            
+            
+            
+            
+            
+            
+            <div id="features-video-opinion-container">
+            
+                <div class=section-title>
+                    Features
+                </div>
+                
+                <div class="more">
+                    <img src="Images/right_arrow_gray.png"> More
+                </div>
+                
+                <div class="four-article-container">
+                    
+                    <div class="single-article-container">
+                        <img src="Images/brundle_lewis2.jpg">
+                        <h4>Formula 1</h4>
+                        <h3>Austrian GP TV times</h3>
+                        <p>As the Sky F1 team welcome back Martin Brundle, here are all this week's TV times and schedules</p>
+                    
+                    </div>
+                    
+                    <div class="single-article-container">
+                        <img src="Images/perez_2.jpg">
+                        <h4>Formula 1</h4>
+                        <h3>Perez's year at McLaren</h3>
+                        <p>Sergio Perez recalls his 'lost' year at McLaren in 2013 as he plots a return to the top-tier of Formula 1</p>
+                    </div>
+                    
+                    <div class="single-article-container">
+                        <img src="Images/lewis.jpg">
+                        <h4>Formula 1</h4>
+                        <h3>F1's wrong wavelength?</h3>
+                        <p>Why were F1's radio rules changed and will teams now lobby to change them after Baku dramas?</p>
+
+                    </div>
+                    
+                    <div class="single-article-container"; style="margin-right:0px" !important>
+                        <img src="Images/dash.jpg">
+                        <h4>Formula 1</h4>
+                        <h3>Sky F1 features</h3>
+                        <p>Watch some of Sky Sports F1's favourite videos of the year in our Video Features section</p>
+                    </div>
+                
+                    
+                
+                </div>
+                
+                
+                
+                
+                
+                <div class=section-title>
+                    Video
+                </div>
+                
+                <div class="more">
+                    <img src="Images/right_arrow_gray.png"> More
+                </div>
+                
+                <div class="four-article-container">
+                    
+                    <div class="single-article-container">
+                        <img src="Images/preview.jpg">
+                      
+                        <h3>F1 Report - Austria Preview</h3>
+                        <br>
+                        <img src="Images/right_arrow_gray.png"> Watch Now
+                    
+                    </div>
+                    
+                    <div class="single-article-container">
+                        <img src="Images/preview.jpg">
+                      
+                        <h3>F1 Report - Austria Preview</h3>
+                        <br>
+                        <img src="Images/right_arrow_gray.png"> Sign in to watch
+                    </div>
+                    
+                    <div class="single-article-container">
+                        <img src="Images/This_week.jpg">
+                       
+                        <h3>This week on the F1 Report</h3>
+                        <br>
+                        <img src="Images/right_arrow_gray.png"> Watch Now
+                    </div>
+                    
+                    <div class="single-article-container"; style="margin-right:0px" !important>
+                        <img src="Images/palmer.jpg">
+                        <h3>Sky F1 features</h3>
+                        <br>
+                        <br>
+                        <p><img src="Images/right_arrow_gray.png"> Watch Now</p>
+                    </div>
+                
+                    
+                
+                </div>
+                
+                
+                
+                 <div class=section-title>
+                    Opinion
+                </div>
+                
+                <div class="more">
+                    <img src="Images/right_arrow_gray.png"> More
+                </div>
+                
+                <div class="four-article-container">
+                    
+                    <div class="opinion-container">
+                        <img src="Images/mark-hughes.jpg">
+                        <h4>Mark Hughes</h4>
+                        <h3>What's wrong at Ferrari?</h3>
+                        <p>Sky F1's Mark Hughes analyses Ferrari in 2016 and the core issues it needs to tackle in order to launch a title challenge.</p>
+                    </div>
+                    
+                    <div class="opinion-container">
+                        <img src="Images/rachelbrookes.jpg">
+                        <h4>Rachel Brookes</h4>
+                        <h3>Rachel's diary: West meets East</h3>
+                        <p>Rachel Brookes reflects on a busy, but unforgettable, transatlantic fortnight from the cold of Canada to the heat of Baku.</p>
+                    </div>
+                    
+                    <div class="opinion-container">
+                        <img src="Images/ted-kravitz.jpg">
+                        <h4>Ted Kravitz</h4>
+                        <h3>Ted's Race Notebook</h3>
+                        <p>Ted Kravitz tours the pop-up Baku pit lane to round up every team and drivers' Sunday at the European GP</p>
+                    </div>
+                    
+                    <div class="opinion-container">
+                        <img src="Images/ted-kravitz.jpg">
+                        <h4>Ted Kravitz</h4>
+                        <h3>WATCH: Ted's Qualy Notebook</h3>
+                        <p>Sky F1's Ted Kravitz delivers the last word on a dramatic and incident-packed qualifying hour in Baku.</p>
+                    </div>
+
+                </div>
+
+            </div>
+         
+            </div>
+            
+            
+            
+            
+            
+            
+            <div id="footer">
+            
+                <div id="footer-container">
+                
+                    <div id="social-container">  
+                        
+                        <a href="https://twitter.com/SkySports"><div class="social-platform-container">                            
+                            <div id="twitter-image-container"></div> Twitter
+                        </div></a>
+                        
+                        
+                        <div class="social-platform-container">
+                            <div id="facebook-image-container"></div> Facebook
+                        </div>
+                        
+                        
+                        <div class="social-platform-container">
+                            <div id="google-image-container"></div> Google+
+                        </div>
+
+                    </div>
+                    
+                    <div id="other-sites-container">
+                        
+                        <div class=links-container>
+                            
+                        <h3>Sky Sports</h3>
+                            <p>Get Sky Sports</p>
+                            <p>Sky Sports Apps</p>
+                            <p>Sportinglife.com</p>
+                            <p>TEAMtalk.com</p>
+                            <p>Football365.com</p>
+                            <p>Team Sky</p>
+                        
+                        </div>
+                        
+                        
+                        <div class=links-container>
+                            
+                        <h3>Partners</h3>
+                            <p>Sky Bet</p>
+                            <p>Fantasy Football</p>
+                            <p>Super 6</p>
+                            <p>Sky Tickets</p>
+                            <p>Sky Sports Pub Finder</p>
+                            <p>Living for Sport</p>
+                            <p>Planet Rugby</p>
+                            <p>Golf365</p>
+                            <p>Planet F1</p>
+                            <p>Cricket365</p>
+                            
+                        </div>  
+                        
+                        <div class=links-container>
+                            
+                        <h3>Sky Sports Channels</h3>
+                            <p>Sky Sports News</p>
+                            <p>Sky Sports 1</p>
+                            <p>Sky Sports 2</p>
+                            <p>Sky Sports 3</p>
+                            <p>Sky Sports 4</p>
+                            <p>Sky Sports 5</p>
+                            <p>Sky Sports F1</p>
+                            <p>Sky Sports Xtra</p>
+                            <p>Sky News</p>
+                            
+                        </div>  
+                        
+                        <div class=links-container>
+                            
+                        <h3>More Sky Sites</h3>
+                            
+                            <p>Sky.com</p>
+                            <p>Sky News</p>
+                            <p>Sky Corporate</p>
+                            <p>Sky For Businesses</p>
+                            <p>Now TV</p>
+                            <p>Sky Communal TV</p>
+                            <p>Sky Academy</p>
+                            <p>Bigger Picture</p>
+                            <p>Store Locator</p>
+                            <p>Work for Sky</p>
+                            <p>Advertise With Us</p>
+                            <p>Sky TV Accessories</p>
+                            
+                            
+                            
+                        </div>  
+                    
+                    
+                    </div>
+                    
+                    
+                        
+                  
+                    <div id="legal-container">
+                        <div class="Terms">Terms and Conditions</div>
+                        <div class="Terms">Privacy</div>
+                        <div class="Terms">Accessibility Information</div>
+                        <div class="Terms">Contact Us</div>
+
+                    </div>
+                    
+                    <div id="small-skysport-logo">
+                        <br>
+                        <img src="Images/Sky-Sports-Logo.png"> ©2016 Sky
+                    </div>
+                    
+                    
+                    
+   
+                </div>
+                    
+            </div>
+            
+       
+     
+</body>
+
+</html>
